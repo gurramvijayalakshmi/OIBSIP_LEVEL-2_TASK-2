@@ -1,0 +1,244 @@
+#title{
+  background-color: rgba(255,255,255, 0.4);
+  color: black;
+  font-size:75px;
+  border: 5px solid black;
+  padding: 20px;
+  font-family: oswald;
+  font-weight: 900;
+  box-shadow:5px 5px 10px #222049;
+}
+#image{
+  display:block;
+  max-width:100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow:5px 5px 10px #222049;
+  margin-top: 30px; border-radius: 10px;
+  
+}
+#tite{
+  background-color: rgba(255,255,255, 0.4);
+  color: black;
+  box-shadow:5px 5px 10px #222049;
+  padding: 20px;
+  border: 5px solid black;
+  position: relative;
+  bottom: 40px;
+  font-family: oswald;
+} 
+section{
+  width:100%;
+  height: 500px;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.back{
+  background-image: url(https://media1.popsugar-assets.com/files/thumbor/F4cGNEuHly7Ym43rndvSXFdh8wQ/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2018/07/23/758/n/1922398/c4f45692147d9651_GettyImages-1003510672/i/Taylor-Swift-Reputation-Concert-Rain-Photos.jpg);
+  background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  height: 100vh;
+    width: 100%;
+  filter: blur(8px);
+    -webkit-filter: blur(5px);
+  z-index:-41;
+  position: fixed;
+  right:10px;
+  margin-left:-7px;
+  
+  padding:0;
+} 
+
+.section1{
+  width:100%;
+  height: auto;
+  background-color: white;
+  border-radius:10px;
+  position: static;
+  
+  box-shadow:2px 2px 5px #000000;
+  
+  
+}
+.section1B{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+html{background-color:black;}
+#img-caption{
+  text-align: center;
+}
+.text{
+  width:60%;
+  font-size: 20px;
+  padding: 35px 0 50px 0;
+  text-align: center;
+}
+.section2{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 50px;
+  
+}
+.card2img{
+  background-image: url(https://variety.com/wp-content/uploads/2020/01/taylor-swift-variety-cover-5-16x9-1000.jpg?w=1000);
+  height: 300px;
+  width: 200px;
+  border-radius: 10px;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  left:19px;
+  margin-top: 20px;
+  
+}
+.card3img{
+  background-image: url(https://images.huffingtonpost.com/2009-11-12-taylorswift.jpg);
+  height: 300px;
+  width: 200px;
+  border-radius: 10px;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  left:19px;
+  margin-top: 20px;
+  
+}
+.card1img{
+  background-image: url(https://i.pinimg.com/originals/e5/f8/a3/e5f8a39c33aeb3e9d0c147c1aaa501c3.jpg);
+  height: 300px;
+  width: 200px;
+  border-radius: 10px;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  left:19px;
+  margin-top: 20px;
+  
+}
+
+.card1text{
+  text-align:center;
+  font-size: 16px;
+  color:coral;
+}
+.card3{ 
+  margin-top:20px; 
+  width:240px;
+  border: 5px solid #222049;
+  border-radius: 10px;
+  box-shadow:5px 5px 10px #222049;
+}
+.card2{
+  margin-top:20px; 
+  width:240px;
+  border: 5px solid #222049;
+  border-radius: 10px;
+  box-shadow:5px 5px 10px #222049;
+}
+.card1{
+  margin-top:20px; 
+  width:240px;
+  border: 5px solid #222049;
+  border-radius: 10px;
+  box-shadow:5px 5px 10px #222049;
+}
+.card3:hover{
+  background-color: #151616;
+  box-shadow:2px 2px 20px #222049;
+}
+.card2:hover{
+  background-color: #171716;
+  box-shadow:2px 2px 20px #222049;
+}
+.card1:hover{
+  background-color: #10100f;
+  box-shadow:2px 2px 20px #222049;
+  
+}
+@media (max-width: 800px){.section1B{display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+
+}
+.section2{display: flex;
+  flex-direction:column;
+  justify-content: space-around;
+  align-items: center;}
+#image{margin-top: 30px; border-radius: 10px; } 
+}
+
+footer{ 
+  margin:50px 0 0 0;
+  height:100px;
+  width: 100%;
+  position:absolute;
+  right:0;
+  background-color: black;
+  border-radius: 10px 10px 0 0;
+  text-align:center;
+}
+#tribute-link{
+  position: relative;
+  color:white;
+  text-decoration: none;  
+  top: 40px;
+  
+}
+
+.links a {
+  font-family: 'Patrick Hand', cursive;
+  color: Violet;
+}
+
+.fa {
+  padding: 0px;
+  font-size: 2px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
